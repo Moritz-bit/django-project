@@ -10,3 +10,6 @@ def home(request):
 
 def snake(request):
     return render(request, "snake.html",{})
+
+def action(request):
+    return render(request, "action.html",{})
