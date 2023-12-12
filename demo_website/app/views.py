@@ -24,3 +24,9 @@ def checkin(request):
     else:
         form = CheckinForm
     return render(request, "checkin.html",{'form': form})
+
+def snake(request):
+    return render(request, "snake.html",{})
+
+def action(request):
+    return render(request, "action.html",{})
